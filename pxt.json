@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Servo": "github:waveshare/pxt-servo#v1.0.0"
+        "Servo": "github:waveshare/pxt-servo#v1.0.0",
+        "motorbit": "github:tinkertanker/pxt-motorbit#v2.0.0"
     },
     "files": [
         "main.blocks",
@@ -15,6 +16,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
